@@ -7,7 +7,7 @@ const connect = async () => {
       useNewUrlParser: true,
     });
   } catch (err) {
-    console.error(err);
+    console.error("Connect failed: " + err);
   }
 };
 
