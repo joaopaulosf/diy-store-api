@@ -22,7 +22,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/", root);
-app.use("/", root);
 app.use("/products", product);
 
 // last
