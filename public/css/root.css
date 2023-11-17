@@ -15,7 +15,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
 }
 
 a {
@@ -33,7 +32,7 @@ a {
   flex-direction: column;
   gap: 40px;
   text-align: center;
-  margin: 240px 0;
+  padding: 240px 0;
 }
 
 .sumary__logo {
