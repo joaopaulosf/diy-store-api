@@ -15,7 +15,6 @@ const invalid = require("./routes/invalid");
 const product = require("./routes/product");
 
 app.use(cors());
-
 app.use(express.static("public"));
 
 app.use(express.json());

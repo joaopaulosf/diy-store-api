@@ -30,7 +30,61 @@
       </section>
     </section>
     <section class="docs" id="docs">
-      <h1>About</h1>
+      <h1 class="docs__title">Example code</h1>
+      <pre class="docs__example">
+fetch('https://diystore-api.onrender.com/products/1')
+    .then(res=>res.json())
+    .then(json => console.log(json))</pre
+      >
+
+      <h1 class="docs__title">Routes</h1>
+      <p class="docs__text">All HTTP methods are sopported</p>
+      <ul class="list">
+        <li class="list__item">
+          <span>GET</span>
+          <a href="#">/products</a>
+        </li>
+        <li class="list__item">
+          <span>GET</span>
+          <a href="#">/products/1</a>
+        </li>
+        <li class="list__item">
+          <span>GET</span>
+          <a href="#">/products/categories</a>
+        </li>
+        <li class="list__item">
+          <span>GET</span>
+          <a href="#">/products/category/kids</a>
+        </li>
+        <li class="list__item">
+          <span>POST</span>
+          <a href="#">/products</a>
+        </li>
+        <li class="list__item">
+          <span>PUT</span>
+          <a href="#">/products/1</a>
+        </li>
+        <li class="list__item">
+          <span>PATCH</span>
+          <a href="#">/products/1</a>
+        </li>
+        <li class="list__item">
+          <span>DELETE</span>
+          <a href="#">/products/1</a>
+        </li>
+      </ul>
     </section>
+    <footer class="footer">
+      <p class="footer__text">
+        created by
+        <a
+          class="footer__link"
+          href="https://www.linkedin.com/in/jo%C3%A3opaulosf/"
+          target="_blank"
+          >joaopaulosf</a
+        >
+      </p>
+      &copy;
+    </footer>
   </body>
 </html>
