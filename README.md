@@ -14,7 +14,7 @@ DIY Store API is a backend server application designed to support the functional
   - [Installation](#installation)
 - [Running the Server](#running-the-server)
 - [Routes](#routes)
-- [Examples](#examples)
+- [Example](#examples)
 - [Used Packages](#diy-store-api-utilizes-the-following-npm-packages)
 
 ## Getting Started
@@ -65,7 +65,7 @@ npm start
 
 ![Routes](https://github.com/joaopaulosf/diy-store-api/assets/100176817/a5244eb3-1aa8-4e97-abaa-0b3bf61c29e3)
 
-### Examples
+### Example
 
 ```sh
 fetch('https://diystore-api.onrender.com/products/1')
